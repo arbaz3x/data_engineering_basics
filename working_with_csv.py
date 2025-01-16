@@ -22,7 +22,7 @@ data = [
     ['id', 'name', 'age'],
     [1, 'Alice', 30],
     [2, 'Bob', 25],
-    [3, 'Cathy', 27]
+    [3, 'Cathy', 27] 
 ]
 
 with open('output.csv', 'w', newline='') as file:
