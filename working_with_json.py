@@ -10,7 +10,6 @@ print(data)
 
 ###########################
 
-import json
 '''
 to write a json file use w
 json.dump ftn
@@ -20,7 +19,7 @@ with open('output.json', 'w') as file:
     json.dump(python_obj, file)
 
 ##### 
-import json 
+
 '''
 for reading a large json file
 increment it line by line

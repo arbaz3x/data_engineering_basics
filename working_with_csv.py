@@ -1,4 +1,5 @@
 import csv
+import pandas as pd
 
 with open('data.csv', 'r') as file: #replace your file name
     csv_reader = csv.reader(file)
@@ -10,13 +11,13 @@ with open('data.csv', 'r') as file: #replace your file name
 
 #another method by built inn python libraries
 
-import pandas as pd
+
 
 df = pd.read_csv('data.csv')
 #print(df.head())  # Display first few rows
 
 #write a csv file from a data
-import csv
+
 
 data = [
     ['id', 'name', 'age'],
